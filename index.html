@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sarkari Result Clone</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      background-color: #8b0000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #333;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Main Content */
+    .container {
+      padding: 20px;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 300px;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #8b0000;
+    }
+
+    .card a {
+      display: block;
+      color: #0000ee;
+      margin-bottom: 5px;
+      text-decoration: none;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+
+    /* Responsive Design */
+    @media screen and (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        width: 90%;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sarkari Result</h1>
+    <p>www.sarkariresult.com</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Latest Jobs</a>
+    <a href="#">Admit Card</a>
+    <a href="#">Results</a>
+    <a href="#">Syllabus</a>
+  </nav>
+
+  <div class="container">
+    <div class="card">
+      <h3>Latest Jobs</h3>
+      <a href="#">UPSC Civil Services 2025</a>
+      <a href="#">SSC CGL Recruitment 2025</a>
+      <a href="#">Bank PO Vacancies</a>
+    </div>
+
+    <div class="card">
+      <h3>Admit Cards</h3>
+      <a href="#">Railway Group D Admit Card</a>
+      <a href="#">UPTET 2025 Admit Card</a>
+      <a href="#">Delhi Police Constable</a>
+    </div>
+
+    <div class="card">
+      <h3>Results</h3>
+      <a href="#">SSC GD Result</a>
+      <a href="#">UPSC Pre Result</a>
+      <a href="#">CTET 2025 Result</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>Copyright © 2025 SarkariResult</p>
+  </footer>
+
+</body>
+</html>
+
